@@ -27,7 +27,7 @@ const LineDivider = () => {
 
 const Home = ({ navigation }) => {
   const profileData = {
-    name: "Maryam",
+    name: "Maryam And Fizza",
     point: 200,
   };
 
