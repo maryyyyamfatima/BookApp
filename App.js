@@ -6,9 +6,9 @@ import { useFonts } from 'expo-font';
 
 import { BookDetail } from "./screens/";
 import Tabs from "./navigation/tabs";
-import IntroScreen1 from './screens/introscreen1'; // Add your Introductory screens
-import IntroScreen2 from './screens/introscreen1';
-import IntroScreen3 from './screens/introscreen3';
+import introscreen1 from './screens/introscreen1'; // Add your Introductory screens
+import introscreen2 from './screens/introscreen1';
+import introscreen3 from './screens/introscreen3';
 
 const theme = {
     ...DefaultTheme,
@@ -58,7 +58,7 @@ const App = () => {
                 initialRouteName={isFirstLaunch ? 'introscreen1' : 'Home'}
             >
                 {/* Introductory Screens */}
-                <Stack.Screen name="introscreen1" component={introScreen1} />
+                <Stack.Screen name="introscreen1" component={introscreen1} />
                 <Stack.Screen name="introscreen2" component={introscreen2} />
                 <Stack.Screen name="introscreen3" component={introscreen3} />
 
